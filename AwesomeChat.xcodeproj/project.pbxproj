@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0E3A212C5B3AEC005BE7FD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E3A1F2C5B3AEC005BE7FD /* SignUpViewController.swift */; };
+		9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0E3A202C5B3AEC005BE7FD /* SignUpViewController.xib */; };
+		9A0E3A242C5B442B005BE7FD /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E3A232C5B442B005BE7FD /* UIButtonExtensions.swift */; };
 		9A25F3A02C5A3D88009D9B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F39F2C5A3D88009D9B3D /* AppDelegate.swift */; };
-		9A25F3A22C5A3D88009D9B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3A12C5A3D88009D9B3D /* SceneDelegate.swift */; };
 		9A25F3A42C5A3D88009D9B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3A32C5A3D88009D9B3D /* ViewController.swift */; };
 		9A25F3A72C5A3D88009D9B3D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9A25F3A62C5A3D88009D9B3D /* Base */; };
 		9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A25F3A82C5A3D8A009D9B3D /* Assets.xcassets */; };
 		9A25F3AC2C5A3D8A009D9B3D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9A25F3AB2C5A3D8A009D9B3D /* Base */; };
+		9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */; };
+		9A25F3B92C5A3F71009D9B3D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */; };
+		9A25F3BC2C5A4A33009D9B3D /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */; };
+		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A0E3A1F2C5B3AEC005BE7FD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9A0E3A202C5B3AEC005BE7FD /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		9A0E3A232C5B442B005BE7FD /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
 		9A25F39C2C5A3D88009D9B3D /* AwesomeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A25F39F2C5A3D88009D9B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A25F3A12C5A3D88009D9B3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A25F3A32C5A3D88009D9B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A25F3A62C5A3D88009D9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A25F3A82C5A3D8A009D9B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A25F3AB2C5A3D8A009D9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A25F3AD2C5A3D8A009D9B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,10 @@
 		9A25F39E2C5A3D88009D9B3D /* AwesomeChat */ = {
 			isa = PBXGroup;
 			children = (
+				9AD41FC02C5B7F130002EFB6 /* Platform */,
+				9A25F3BA2C5A4887009D9B3D /* Helper */,
+				9A25F3B32C5A3F33009D9B3D /* Scene */,
 				9A25F39F2C5A3D88009D9B3D /* AppDelegate.swift */,
-				9A25F3A12C5A3D88009D9B3D /* SceneDelegate.swift */,
 				9A25F3A32C5A3D88009D9B3D /* ViewController.swift */,
 				9A25F3A52C5A3D88009D9B3D /* Main.storyboard */,
 				9A25F3A82C5A3D8A009D9B3D /* Assets.xcassets */,
@@ -65,6 +79,66 @@
 				9A25F3AD2C5A3D8A009D9B3D /* Info.plist */,
 			);
 			path = AwesomeChat;
+			sourceTree = "<group>";
+		};
+		9A25F3B32C5A3F33009D9B3D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9A25F3B52C5A3F4F009D9B3D /* SignUpViewController */,
+				9A25F3B42C5A3F3A009D9B3D /* SIgnInViewController */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9A25F3B42C5A3F3A009D9B3D /* SIgnInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */,
+				9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */,
+			);
+			path = SIgnInViewController;
+			sourceTree = "<group>";
+		};
+		9A25F3B52C5A3F4F009D9B3D /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A0E3A1F2C5B3AEC005BE7FD /* SignUpViewController.swift */,
+				9A0E3A202C5B3AEC005BE7FD /* SignUpViewController.xib */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		9A25F3BA2C5A4887009D9B3D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */,
+				9A0E3A232C5B442B005BE7FD /* UIButtonExtensions.swift */,
+				9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9AD41FC02C5B7F130002EFB6 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				9AD41FC22C5B7F260002EFB6 /* UseCase */,
+				9AD41FC12C5B7F1D0002EFB6 /* UseCaseProvider */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		9AD41FC12C5B7F1D0002EFB6 /* UseCaseProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCaseProvider;
+			sourceTree = "<group>";
+		};
+		9AD41FC22C5B7F260002EFB6 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */,
+				9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */,
 				9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */,
 				9A25F3AC2C5A3D8A009D9B3D /* Base in Resources */,
 				9A25F3A72C5A3D88009D9B3D /* Base in Resources */,
@@ -139,8 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A25F3A42C5A3D88009D9B3D /* ViewController.swift in Sources */,
+				9A25F3BC2C5A4A33009D9B3D /* UITextFieldExtensions.swift in Sources */,
 				9A25F3A02C5A3D88009D9B3D /* AppDelegate.swift in Sources */,
-				9A25F3A22C5A3D88009D9B3D /* SceneDelegate.swift in Sources */,
+				9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */,
+				9A0E3A242C5B442B005BE7FD /* UIButtonExtensions.swift in Sources */,
+				9A25F3B92C5A3F71009D9B3D /* SignInViewController.swift in Sources */,
+				9A0E3A212C5B3AEC005BE7FD /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,9 +376,9 @@
 				INFOPLIST_FILE = AwesomeChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,9 +403,9 @@
 				INFOPLIST_FILE = AwesomeChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
