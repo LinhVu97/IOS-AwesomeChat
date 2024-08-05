@@ -14,12 +14,15 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
     
+    var activityIndicator: UIActivityIndicatorView!
+    
     var isEnabled = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupView()
+        setupIndicator()
     }
     
     private func setupView() {
@@ -33,6 +36,12 @@ class SignInViewController: UIViewController {
         signInButton.enableButton(isEnabled: isEnabled)
     }
     
+    private func setupIndicator() {
+        activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.center = view.center
+        view.addSubview(activityIndicator)
+    }
+    
     @objc func textFieldDidChange(_ textField: UITextField) {
         let isValid: Bool = (emailTextField.text ?? "").isValidEmail && (passwordTextField.text ?? "").isValidPassword
         
@@ -44,6 +53,35 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func loginHandler(_ sender: Any) {
+        guard let email = emailTextField.text, !email.isEmpty,
+              let password = passwordTextField.text, !password.isEmpty else {
+            return
+        }
+        
+        activityIndicator.startAnimating()
+        
+        FirebaseAuthManager().loginUser(email: email, password: password) { [weak self] success, error in
+            guard let self = self else { return }
+            
+            activityIndicator.stopAnimating()
+            
+            DispatchQueue.main.async {
+                if success {
+                    self.showAlert(title: nil, message: "Login Suceessfully !!!", buttonTitle: "OK") {   
+                        let vc = HomeViewController()
+                        vc.modalPresentationStyle = .fullScreen
+                        self.present(vc, animated: true)
+                    }
+                } else if let error = error {
+                    self.showAlert(title: nil, message: "Email or password is invalid", buttonTitle: "OK") {
+                        self.emailTextField.text = ""
+                        self.passwordTextField.text = ""
+                        
+                        self.textFieldDidChange(self.emailTextField ?? UITextField())
+                    }
+                }
+            }
+        }
     }
     
     @IBAction func forgotPasswordHandler(_ sender: Any) {
