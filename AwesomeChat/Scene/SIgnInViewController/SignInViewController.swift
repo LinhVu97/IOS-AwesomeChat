@@ -67,18 +67,10 @@ class SignInViewController: UIViewController {
             
             DispatchQueue.main.async {
                 if success {
-                    self.showAlert(title: nil, message: "Login Suceessfully !!!", buttonTitle: "OK") {   
-                        let vc = HomeViewController()
-                        vc.modalPresentationStyle = .fullScreen
-                        self.present(vc, animated: true)
-                    }
+                    AlertManager.shared.loginSuccess(vc: self)
                 } else if let error = error {
-                    self.showAlert(title: nil, message: "Email or password is invalid", buttonTitle: "OK") {
-                        self.emailTextField.text = ""
-                        self.passwordTextField.text = ""
-                        
-                        self.textFieldDidChange(self.emailTextField ?? UITextField())
-                    }
+                    print(error)
+                    AlertManager.shared.loginFailure(vc: self)
                 }
             }
         }
@@ -89,7 +81,7 @@ class SignInViewController: UIViewController {
     
     @IBAction func changeToRegister(_ sender: Any) {
         let vc = SignUpViewController()
-        vc.modalPresentationStyle = .fullScreen
-        present(vc, animated: true)
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
 }

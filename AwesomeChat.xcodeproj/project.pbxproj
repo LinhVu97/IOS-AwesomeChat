@@ -29,7 +29,7 @@
 		9A3CEA9F2C5C9DE800D4A376 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEA9E2C5C9DE800D4A376 /* UserUseCase.swift */; };
 		9A3CEAA12C5C9E1D00D4A376 /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA02C5C9E1D00D4A376 /* UseCaseProvider.swift */; };
 		9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA32C5CB88000D4A376 /* FirebaseAuthManager.swift */; };
-		9A3CEAA62C5CC45C00D4A376 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA52C5CC45C00D4A376 /* UIViewControllerExtensions.swift */; };
+		9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */; };
 		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		9A3CEA9E2C5C9DE800D4A376 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
 		9A3CEAA02C5C9E1D00D4A376 /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
 		9A3CEAA32C5CB88000D4A376 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
-		9A3CEAA52C5CC45C00D4A376 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 				9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */,
 				9A0E3A232C5B442B005BE7FD /* UIButtonExtensions.swift */,
 				9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */,
-				9A3CEAA52C5CC45C00D4A376 /* UIViewControllerExtensions.swift */,
+				9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 				9A3CEAA12C5C9E1D00D4A376 /* UseCaseProvider.swift in Sources */,
 				9A3CEA992C5C954300D4A376 /* HomeViewController.swift in Sources */,
 				9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */,
-				9A3CEAA62C5CC45C00D4A376 /* UIViewControllerExtensions.swift in Sources */,
+				9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */,
 				9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */,
 				9A3CEA9D2C5C966B00D4A376 /* User.swift in Sources */,
 				9A3CEA9F2C5C9DE800D4A376 /* UserUseCase.swift in Sources */,
