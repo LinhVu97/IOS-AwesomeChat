@@ -50,18 +50,18 @@ class SignUpViewController: UIViewController {
     
     @objc func textFieldDidChange(_ textField: UITextField) {
         let isValid: Bool = (emailTextField.text ?? "").isValidEmail &&
-            (passwordTextField.text ?? "").isValidPassword &&
-            (userNameTextField.text ?? "").isValidName
+        (passwordTextField.text ?? "").isValidPassword &&
+        (userNameTextField.text ?? "").isValidName
         
         registerButton.enableButton(isEnabled: isValid)
     }
     
     @IBAction func back(_ sender: Any) {
-        dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func backToLogin(_ sender: Any) {
-        dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func checkboxHandler(_ sender: Any) {
@@ -93,18 +93,10 @@ class SignUpViewController: UIViewController {
             
             DispatchQueue.main.async {
                 if success {
-                    self.showAlert(title: "Success", message: "User registered successfully", buttonTitle: "OK") {
-                        self.dismiss(animated: true)
-                    }
+                    AlertManager.shared.registerSuccess(vc: self)
                 } else if let error = error {
-                    self.showAlert(title: nil, message: error.localizedDescription, buttonTitle: "OK") {
-                        self.userNameTextField.text = ""
-                        self.emailTextField.text = ""
-                        self.passwordTextField.text = ""
-                        self.checkboxButton.setupCheckBox(isChecked: false)
-                        
-                        self.textFieldDidChange(self.emailTextField ?? UITextField())
-                    }
+                    print(error.localizedDescription)
+                    AlertManager.shared.registerFailure(vc: self)
                 }
             }
         }
