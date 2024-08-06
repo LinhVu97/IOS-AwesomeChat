@@ -61,4 +61,20 @@ extension AlertManager {
             vc.textFieldDidChange(vc.emailTextField ?? UITextField())
         }
     }
+    
+    // - MARK: Reset Password
+    func resetPasswordSuccess(vc: ForgotPasswordViewController) {
+        self.baseAlert(vc: vc, title: nil,
+                       message: "An email with instructions to reset your password has been sent to your email",
+                       buttonTitle: "OK") {
+            vc.navigationController?.popViewController(animated: true)
+        }
+    }
+    
+    func resetPasswordFailure(vc: ForgotPasswordViewController) {
+        self.baseAlert(vc: vc, title: nil, message: "The email address is not registered", buttonTitle: "OK") {
+            vc.emailTextField.text = ""
+            vc.textFieldDidChange(vc.emailTextField ?? UITextField())
+        }
+    }
 }

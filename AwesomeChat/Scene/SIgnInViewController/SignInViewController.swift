@@ -77,6 +77,9 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func forgotPasswordHandler(_ sender: Any) {
+        let vc = ForgotPasswordViewController()
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func changeToRegister(_ sender: Any) {
