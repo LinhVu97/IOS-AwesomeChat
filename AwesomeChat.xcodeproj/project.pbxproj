@@ -30,6 +30,8 @@
 		9A3CEAA12C5C9E1D00D4A376 /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA02C5C9E1D00D4A376 /* UseCaseProvider.swift */; };
 		9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA32C5CB88000D4A376 /* FirebaseAuthManager.swift */; };
 		9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */; };
+		9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */; };
+		9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */; };
 		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		9A3CEAA02C5C9E1D00D4A376 /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
 		9A3CEAA32C5CB88000D4A376 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +114,7 @@
 		9A25F3B32C5A3F33009D9B3D /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				9A46C04F2C61DD0000FB78A8 /* ForgotPasswordViewController */,
 				9A3CEA962C5C952D00D4A376 /* HomeViewController */,
 				9A25F3B52C5A3F4F009D9B3D /* SignUpViewController */,
 				9A25F3B42C5A3F3A009D9B3D /* SIgnInViewController */,
@@ -169,6 +174,15 @@
 				9A3CEAA32C5CB88000D4A376 /* FirebaseAuthManager.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9A46C04F2C61DD0000FB78A8 /* ForgotPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */,
+				9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */,
+			);
+			path = ForgotPasswordViewController;
 			sourceTree = "<group>";
 		};
 		9AD41FC02C5B7F130002EFB6 /* Platform */ = {
@@ -264,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */,
 				9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */,
 				9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */,
 				9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */,
@@ -289,6 +304,7 @@
 				9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */,
 				9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */,
 				9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */,
+				9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */,
 				9A3CEA9D2C5C966B00D4A376 /* User.swift in Sources */,
 				9A3CEA9F2C5C9DE800D4A376 /* UserUseCase.swift in Sources */,
 				9A0E3A242C5B442B005BE7FD /* UIButtonExtensions.swift in Sources */,
