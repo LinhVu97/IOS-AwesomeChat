@@ -25,4 +25,8 @@ extension String {
         let nameTest = NSPredicate(format:"SELF MATCHES %@", nameRegEx)
         return nameTest.evaluate(with: self)
     }
+    
+    static func convertToString(_ type: Any) -> String {
+        return String(describing: type)
+    }
 }

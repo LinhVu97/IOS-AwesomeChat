@@ -18,6 +18,15 @@
 		9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */; };
 		9A25F3B92C5A3F71009D9B3D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */; };
 		9A25F3BC2C5A4A33009D9B3D /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */; };
+		9A3C76D02C72FB22002E34E6 /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C76CF2C72FB22002E34E6 /* TabbarViewController.xib */; };
+		9A3C76D12C72FB22002E34E6 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76CE2C72FB22002E34E6 /* TabbarViewController.swift */; };
+		9A3C76D32C72FC03002E34E6 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76D22C72FC03002E34E6 /* UIViewControllerExtensions.swift */; };
+		9A3C76D92C730205002E34E6 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C76D82C730205002E34E6 /* MessageViewController.xib */; };
+		9A3C76DA2C730205002E34E6 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76D72C730205002E34E6 /* MessageViewController.swift */; };
+		9A3C76DD2C73021E002E34E6 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C76DC2C73021E002E34E6 /* FriendViewController.xib */; };
+		9A3C76DE2C73021E002E34E6 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76DB2C73021E002E34E6 /* FriendViewController.swift */; };
+		9A3C76E12C730235002E34E6 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C76E02C730235002E34E6 /* PersonViewController.xib */; };
+		9A3C76E22C730235002E34E6 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76DF2C730235002E34E6 /* PersonViewController.swift */; };
 		9A3CEA8C2C5C93BD00D4A376 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A3CEA8B2C5C93BD00D4A376 /* GoogleService-Info.plist */; };
 		9A3CEA8F2C5C942800D4A376 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9A3CEA8E2C5C942800D4A376 /* FirebaseAnalytics */; };
 		9A3CEA912C5C942800D4A376 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 9A3CEA902C5C942800D4A376 /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -32,6 +41,7 @@
 		9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */; };
 		9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */; };
 		9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */; };
+		9AA061102C65FAC600CD78AF /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */; };
 		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +59,15 @@
 		9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		9A3C76CE2C72FB22002E34E6 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		9A3C76CF2C72FB22002E34E6 /* TabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
+		9A3C76D22C72FC03002E34E6 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		9A3C76D72C730205002E34E6 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		9A3C76D82C730205002E34E6 /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		9A3C76DB2C73021E002E34E6 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		9A3C76DC2C73021E002E34E6 /* FriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		9A3C76DF2C730235002E34E6 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		9A3C76E02C730235002E34E6 /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
 		9A3CEA8B2C5C93BD00D4A376 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A3CEA972C5C954300D4A376 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9A3CEA982C5C954300D4A376 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -59,6 +78,7 @@
 		9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +116,7 @@
 		9A25F39E2C5A3D88009D9B3D /* AwesomeChat */ = {
 			isa = PBXGroup;
 			children = (
+				9AA061092C65F9FA00CD78AF /* Components */,
 				9A3CEAA22C5CB86600D4A376 /* Authentication */,
 				9AD41FC02C5B7F130002EFB6 /* Platform */,
 				9A25F3BA2C5A4887009D9B3D /* Helper */,
@@ -114,6 +135,9 @@
 		9A25F3B32C5A3F33009D9B3D /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				9A3C76D62C7301A1002E34E6 /* PersonViewController */,
+				9A3C76D52C730197002E34E6 /* FriendViewController */,
+				9A3C76D42C73018A002E34E6 /* MessageViewController */,
 				9A46C04F2C61DD0000FB78A8 /* ForgotPasswordViewController */,
 				9A3CEA962C5C952D00D4A376 /* HomeViewController */,
 				9A25F3B52C5A3F4F009D9B3D /* SignUpViewController */,
@@ -147,8 +171,37 @@
 				9A0E3A232C5B442B005BE7FD /* UIButtonExtensions.swift */,
 				9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */,
 				9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */,
+				9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */,
+				9A3C76D22C72FC03002E34E6 /* UIViewControllerExtensions.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		9A3C76D42C73018A002E34E6 /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C76D72C730205002E34E6 /* MessageViewController.swift */,
+				9A3C76D82C730205002E34E6 /* MessageViewController.xib */,
+			);
+			path = MessageViewController;
+			sourceTree = "<group>";
+		};
+		9A3C76D52C730197002E34E6 /* FriendViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C76DB2C73021E002E34E6 /* FriendViewController.swift */,
+				9A3C76DC2C73021E002E34E6 /* FriendViewController.xib */,
+			);
+			path = FriendViewController;
+			sourceTree = "<group>";
+		};
+		9A3C76D62C7301A1002E34E6 /* PersonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C76DF2C730235002E34E6 /* PersonViewController.swift */,
+				9A3C76E02C730235002E34E6 /* PersonViewController.xib */,
+			);
+			path = PersonViewController;
 			sourceTree = "<group>";
 		};
 		9A3CEA962C5C952D00D4A376 /* HomeViewController */ = {
@@ -183,6 +236,23 @@
 				9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */,
 			);
 			path = ForgotPasswordViewController;
+			sourceTree = "<group>";
+		};
+		9AA061092C65F9FA00CD78AF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9AA0610A2C65FA0400CD78AF /* Tabbar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9AA0610A2C65FA0400CD78AF /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C76CE2C72FB22002E34E6 /* TabbarViewController.swift */,
+				9A3C76CF2C72FB22002E34E6 /* TabbarViewController.xib */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 		9AD41FC02C5B7F130002EFB6 /* Platform */ = {
@@ -281,10 +351,14 @@
 				9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */,
 				9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */,
 				9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */,
+				9A3C76E12C730235002E34E6 /* PersonViewController.xib in Resources */,
 				9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */,
+				9A3C76D02C72FB22002E34E6 /* TabbarViewController.xib in Resources */,
 				9A25F3AC2C5A3D8A009D9B3D /* Base in Resources */,
+				9A3C76D92C730205002E34E6 /* MessageViewController.xib in Resources */,
 				9A25F3A72C5A3D88009D9B3D /* Base in Resources */,
 				9A3CEA9A2C5C954300D4A376 /* HomeViewController.xib in Resources */,
+				9A3C76DD2C73021E002E34E6 /* FriendViewController.xib in Resources */,
 				9A3CEA8C2C5C93BD00D4A376 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +370,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3C76D12C72FB22002E34E6 /* TabbarViewController.swift in Sources */,
+				9A3C76D32C72FC03002E34E6 /* UIViewControllerExtensions.swift in Sources */,
 				9A25F3A42C5A3D88009D9B3D /* ViewController.swift in Sources */,
+				9A3C76DE2C73021E002E34E6 /* FriendViewController.swift in Sources */,
 				9A25F3BC2C5A4A33009D9B3D /* UITextFieldExtensions.swift in Sources */,
 				9A25F3A02C5A3D88009D9B3D /* AppDelegate.swift in Sources */,
 				9A3CEAA12C5C9E1D00D4A376 /* UseCaseProvider.swift in Sources */,
@@ -304,8 +381,11 @@
 				9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */,
 				9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */,
 				9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */,
+				9A3C76DA2C730205002E34E6 /* MessageViewController.swift in Sources */,
 				9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */,
+				9AA061102C65FAC600CD78AF /* UIViewExtensions.swift in Sources */,
 				9A3CEA9D2C5C966B00D4A376 /* User.swift in Sources */,
+				9A3C76E22C730235002E34E6 /* PersonViewController.swift in Sources */,
 				9A3CEA9F2C5C9DE800D4A376 /* UserUseCase.swift in Sources */,
 				9A0E3A242C5B442B005BE7FD /* UIButtonExtensions.swift in Sources */,
 				9A25F3B92C5A3F71009D9B3D /* SignInViewController.swift in Sources */,
