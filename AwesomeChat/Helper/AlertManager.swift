@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import FirebaseAuth
 
 class AlertManager {
     static let shared = AlertManager()
@@ -22,6 +23,7 @@ class AlertManager {
                                       handler: { _ in
             completion()
         }))
+        
         vc.present(alert, animated: true)
     }
 }
@@ -75,6 +77,13 @@ extension AlertManager {
         self.baseAlert(vc: vc, title: nil, message: "The email address is not registered", buttonTitle: "OK") {
             vc.emailTextField.text = ""
             vc.textFieldDidChange(vc.emailTextField ?? UITextField())
+        }
+    }
+    
+    // - MARK: Logout
+    func logout(vc: UIViewController, completion: @escaping () -> Void) {
+        self.baseAlert(vc: vc, title: nil, message: "Log out successfully !!!", buttonTitle: "OK") {
+            completion()
         }
     }
 }

@@ -37,6 +37,10 @@ class HomeViewController: UIViewController {
         tabbarViewController.tabbarDelegate = self
         
         switchToViewController(tabbarViewController.messageViewControler)
+        
+        if let personVC = tabbarViewController.personViewController as? PersonViewController {
+            personVC.delegate = self
+        }
     }
     
     private func switchToViewController(_ vc: UIViewController) {
@@ -63,19 +67,6 @@ class HomeViewController: UIViewController {
             }
         }
     }
-    
-//    @IBAction func logOut(_ sender: Any) {
-//        let firebaseAuth = Auth.auth()
-//        do {
-//            try firebaseAuth.signOut()
-//
-//            DispatchQueue.main.async {
-//                self.presentSignInViewController()
-//            }
-//        } catch let signOutError as NSError {
-//            print("Error signing out: %@", signOutError)
-//        }
-//    }
 }
 
 extension HomeViewController: TabbarViewControllerDelegate {
@@ -89,6 +80,21 @@ extension HomeViewController: TabbarViewControllerDelegate {
             switchToViewController(tabbarViewController.personViewController)
         default:
             break
+        }
+    }
+}
+
+extension HomeViewController: PersonViewControllerDelegate {
+    func didLogout() {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+
+            DispatchQueue.main.async {
+                self.presentSignInViewController()
+            }
+        } catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
         }
     }
 }
