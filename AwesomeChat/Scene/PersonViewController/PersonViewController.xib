@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonViewController" customModule="AwesomeChat" customModuleProvider="target">
             <connections>
+                <outlet property="imageView" destination="xtc-x5-Qmr" id="fRM-IB-r63"/>
+                <outlet property="tableView" destination="2Zj-BI-nbK" id="ZgY-kS-zLl"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,12 +20,31 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="xtc-x5-Qmr">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="255.66666666666666"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2Zj-BI-nbK">
+                    <rect key="frame" x="0.0" y="225.66666666666669" width="393" height="592.33333333333326"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="xtc-x5-Qmr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BbV-J1-haR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2Zj-BI-nbK" secondAttribute="bottom" id="DTg-Nl-mSq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xtc-x5-Qmr" secondAttribute="trailing" id="GXR-v2-Ke6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2Zj-BI-nbK" secondAttribute="trailing" id="QON-tR-oVa"/>
+                <constraint firstItem="xtc-x5-Qmr" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="W4B-D4-1tJ"/>
+                <constraint firstItem="2Zj-BI-nbK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="b0y-n2-guC"/>
+                <constraint firstItem="xtc-x5-Qmr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="idK-4B-hIM"/>
+                <constraint firstItem="2Zj-BI-nbK" firstAttribute="top" secondItem="xtc-x5-Qmr" secondAttribute="bottom" constant="-30" id="izM-fS-ySu"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>
     </objects>
     <resources>
+        <image name="avatar" width="375" height="519"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

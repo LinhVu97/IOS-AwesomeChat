@@ -41,7 +41,17 @@
 		9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */; };
 		9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */; };
 		9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */; };
+		9A63B72A2C75974600EEA9A5 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B7282C75974600EEA9A5 /* LogoutTableViewCell.swift */; };
+		9A63B72B2C75974600EEA9A5 /* LogoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A63B7292C75974600EEA9A5 /* LogoutTableViewCell.xib */; };
+		9A63B72E2C75975C00EEA9A5 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B72C2C75975C00EEA9A5 /* SettingTableViewCell.swift */; };
+		9A63B72F2C75975C00EEA9A5 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A63B72D2C75975C00EEA9A5 /* SettingTableViewCell.xib */; };
+		9A63B7322C75976C00EEA9A5 /* PersonInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B7302C75976C00EEA9A5 /* PersonInfoTableViewCell.swift */; };
+		9A63B7332C75976C00EEA9A5 /* PersonInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A63B7312C75976C00EEA9A5 /* PersonInfoTableViewCell.xib */; };
+		9A63B7352C75982F00EEA9A5 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B7342C75982F00EEA9A5 /* UITableViewExtensions.swift */; };
+		9A63B7382C75EFAA00EEA9A5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9A63B7372C75EFAA00EEA9A5 /* FirebaseStorage */; };
+		9A63B73A2C75F2AC00EEA9A5 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B7392C75F2AC00EEA9A5 /* UIImageViewExtensions.swift */; };
 		9AA061102C65FAC600CD78AF /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */; };
+		9AAC2FFF2C76F4C600B8CEF4 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC2FFE2C76F4C600B8CEF4 /* FirebaseManager.swift */; };
 		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +88,16 @@
 		9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		9A63B7282C75974600EEA9A5 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
+		9A63B7292C75974600EEA9A5 /* LogoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutTableViewCell.xib; sourceTree = "<group>"; };
+		9A63B72C2C75975C00EEA9A5 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		9A63B72D2C75975C00EEA9A5 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		9A63B7302C75976C00EEA9A5 /* PersonInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoTableViewCell.swift; sourceTree = "<group>"; };
+		9A63B7312C75976C00EEA9A5 /* PersonInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonInfoTableViewCell.xib; sourceTree = "<group>"; };
+		9A63B7342C75982F00EEA9A5 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		9A63B7392C75F2AC00EEA9A5 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		9AAC2FFE2C76F4C600B8CEF4 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +109,7 @@
 				9A3CEA8F2C5C942800D4A376 /* FirebaseAnalytics in Frameworks */,
 				9A3CEA952C5C942800D4A376 /* FirebaseFirestore in Frameworks */,
 				9A3CEA932C5C942800D4A376 /* FirebaseAuth in Frameworks */,
+				9A63B7382C75EFAA00EEA9A5 /* FirebaseStorage in Frameworks */,
 				9A3CEA912C5C942800D4A376 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +122,7 @@
 			children = (
 				9A25F39E2C5A3D88009D9B3D /* AwesomeChat */,
 				9A25F39D2C5A3D88009D9B3D /* Products */,
+				9A63B7362C75EFAA00EEA9A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +194,9 @@
 				9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */,
 				9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */,
 				9A3C76D22C72FC03002E34E6 /* UIViewControllerExtensions.swift */,
+				9A63B7342C75982F00EEA9A5 /* UITableViewExtensions.swift */,
+				9A63B7392C75F2AC00EEA9A5 /* UIImageViewExtensions.swift */,
+				9AAC2FFE2C76F4C600B8CEF4 /* FirebaseManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -198,6 +222,7 @@
 		9A3C76D62C7301A1002E34E6 /* PersonViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9A63B7242C75966300EEA9A5 /* CustomCell */,
 				9A3C76DF2C730235002E34E6 /* PersonViewController.swift */,
 				9A3C76E02C730235002E34E6 /* PersonViewController.xib */,
 			);
@@ -236,6 +261,50 @@
 				9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */,
 			);
 			path = ForgotPasswordViewController;
+			sourceTree = "<group>";
+		};
+		9A63B7242C75966300EEA9A5 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				9A63B7272C75970000EEA9A5 /* Logout */,
+				9A63B7262C7596F400EEA9A5 /* Setting */,
+				9A63B7252C7596D000EEA9A5 /* PersonInfo */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		9A63B7252C7596D000EEA9A5 /* PersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9A63B7302C75976C00EEA9A5 /* PersonInfoTableViewCell.swift */,
+				9A63B7312C75976C00EEA9A5 /* PersonInfoTableViewCell.xib */,
+			);
+			path = PersonInfo;
+			sourceTree = "<group>";
+		};
+		9A63B7262C7596F400EEA9A5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				9A63B72C2C75975C00EEA9A5 /* SettingTableViewCell.swift */,
+				9A63B72D2C75975C00EEA9A5 /* SettingTableViewCell.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		9A63B7272C75970000EEA9A5 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				9A63B7282C75974600EEA9A5 /* LogoutTableViewCell.swift */,
+				9A63B7292C75974600EEA9A5 /* LogoutTableViewCell.xib */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		9A63B7362C75EFAA00EEA9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9AA061092C65F9FA00CD78AF /* Components */ = {
@@ -302,6 +371,7 @@
 				9A3CEA902C5C942800D4A376 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				9A3CEA922C5C942800D4A376 /* FirebaseAuth */,
 				9A3CEA942C5C942800D4A376 /* FirebaseFirestore */,
+				9A63B7372C75EFAA00EEA9A5 /* FirebaseStorage */,
 			);
 			productName = AwesomeChat;
 			productReference = 9A25F39C2C5A3D88009D9B3D /* AwesomeChat.app */;
@@ -348,10 +418,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A63B7332C75976C00EEA9A5 /* PersonInfoTableViewCell.xib in Resources */,
 				9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */,
 				9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */,
 				9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */,
 				9A3C76E12C730235002E34E6 /* PersonViewController.xib in Resources */,
+				9A63B72B2C75974600EEA9A5 /* LogoutTableViewCell.xib in Resources */,
 				9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */,
 				9A3C76D02C72FB22002E34E6 /* TabbarViewController.xib in Resources */,
 				9A25F3AC2C5A3D8A009D9B3D /* Base in Resources */,
@@ -359,6 +431,7 @@
 				9A25F3A72C5A3D88009D9B3D /* Base in Resources */,
 				9A3CEA9A2C5C954300D4A376 /* HomeViewController.xib in Resources */,
 				9A3C76DD2C73021E002E34E6 /* FriendViewController.xib in Resources */,
+				9A63B72F2C75975C00EEA9A5 /* SettingTableViewCell.xib in Resources */,
 				9A3CEA8C2C5C93BD00D4A376 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAC2FFF2C76F4C600B8CEF4 /* FirebaseManager.swift in Sources */,
+				9A63B72E2C75975C00EEA9A5 /* SettingTableViewCell.swift in Sources */,
+				9A63B7322C75976C00EEA9A5 /* PersonInfoTableViewCell.swift in Sources */,
 				9A3C76D12C72FB22002E34E6 /* TabbarViewController.swift in Sources */,
 				9A3C76D32C72FC03002E34E6 /* UIViewControllerExtensions.swift in Sources */,
 				9A25F3A42C5A3D88009D9B3D /* ViewController.swift in Sources */,
@@ -383,7 +459,10 @@
 				9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */,
 				9A3C76DA2C730205002E34E6 /* MessageViewController.swift in Sources */,
 				9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */,
+				9A63B7352C75982F00EEA9A5 /* UITableViewExtensions.swift in Sources */,
 				9AA061102C65FAC600CD78AF /* UIViewExtensions.swift in Sources */,
+				9A63B72A2C75974600EEA9A5 /* LogoutTableViewCell.swift in Sources */,
+				9A63B73A2C75F2AC00EEA9A5 /* UIImageViewExtensions.swift in Sources */,
 				9A3CEA9D2C5C966B00D4A376 /* User.swift in Sources */,
 				9A3C76E22C730235002E34E6 /* PersonViewController.swift in Sources */,
 				9A3CEA9F2C5C9DE800D4A376 /* UserUseCase.swift in Sources */,
@@ -642,6 +721,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9A3CEA8D2C5C942800D4A376 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		9A63B7372C75EFAA00EEA9A5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A3CEA8D2C5C942800D4A376 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
