@@ -12,3 +12,10 @@ struct User {
     var email: String
     var password: String
 }
+
+struct UserFriend {
+    var uid: String
+    var username: String
+    var email: String
+    var imageProfile: String
+}

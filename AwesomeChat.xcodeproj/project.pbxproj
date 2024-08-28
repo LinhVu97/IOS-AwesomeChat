@@ -41,6 +41,8 @@
 		9A3CEAA62C5CC45C00D4A376 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */; };
 		9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */; };
 		9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */; };
+		9A4E34872C7DD6C800C8B485 /* AllFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E34862C7DD6C800C8B485 /* AllFriendTableViewCell.xib */; };
+		9A4E34882C7DD6C800C8B485 /* AllFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E34852C7DD6C800C8B485 /* AllFriendTableViewCell.swift */; };
 		9A63B72A2C75974600EEA9A5 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B7282C75974600EEA9A5 /* LogoutTableViewCell.swift */; };
 		9A63B72B2C75974600EEA9A5 /* LogoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A63B7292C75974600EEA9A5 /* LogoutTableViewCell.xib */; };
 		9A63B72E2C75975C00EEA9A5 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B72C2C75975C00EEA9A5 /* SettingTableViewCell.swift */; };
@@ -52,6 +54,12 @@
 		9A63B73A2C75F2AC00EEA9A5 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B7392C75F2AC00EEA9A5 /* UIImageViewExtensions.swift */; };
 		9AA061102C65FAC600CD78AF /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */; };
 		9AAC2FFF2C76F4C600B8CEF4 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC2FFE2C76F4C600B8CEF4 /* FirebaseManager.swift */; };
+		9AAC30062C772AC300B8CEF4 /* ListFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC30052C772AC300B8CEF4 /* ListFriendViewController.xib */; };
+		9AAC30072C772AC300B8CEF4 /* ListFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC30042C772AC300B8CEF4 /* ListFriendViewController.swift */; };
+		9AAC300A2C772ADE00B8CEF4 /* AllFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC30092C772ADE00B8CEF4 /* AllFriendViewController.xib */; };
+		9AAC300B2C772ADE00B8CEF4 /* AllFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC30082C772ADE00B8CEF4 /* AllFriendViewController.swift */; };
+		9AAC300E2C772B2900B8CEF4 /* RequestFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC300D2C772B2900B8CEF4 /* RequestFriendViewController.xib */; };
+		9AAC300F2C772B2900B8CEF4 /* RequestFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC300C2C772B2900B8CEF4 /* RequestFriendViewController.swift */; };
 		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +96,8 @@
 		9A3CEAA52C5CC45C00D4A376 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		9A46C0502C61DD1F00FB78A8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		9A4E34852C7DD6C800C8B485 /* AllFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFriendTableViewCell.swift; sourceTree = "<group>"; };
+		9A4E34862C7DD6C800C8B485 /* AllFriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllFriendTableViewCell.xib; sourceTree = "<group>"; };
 		9A63B7282C75974600EEA9A5 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
 		9A63B7292C75974600EEA9A5 /* LogoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutTableViewCell.xib; sourceTree = "<group>"; };
 		9A63B72C2C75975C00EEA9A5 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
@@ -98,6 +108,12 @@
 		9A63B7392C75F2AC00EEA9A5 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		9AA0610F2C65FAC600CD78AF /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		9AAC2FFE2C76F4C600B8CEF4 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		9AAC30042C772AC300B8CEF4 /* ListFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFriendViewController.swift; sourceTree = "<group>"; };
+		9AAC30052C772AC300B8CEF4 /* ListFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListFriendViewController.xib; sourceTree = "<group>"; };
+		9AAC30082C772ADE00B8CEF4 /* AllFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFriendViewController.swift; sourceTree = "<group>"; };
+		9AAC30092C772ADE00B8CEF4 /* AllFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllFriendViewController.xib; sourceTree = "<group>"; };
+		9AAC300C2C772B2900B8CEF4 /* RequestFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFriendViewController.swift; sourceTree = "<group>"; };
+		9AAC300D2C772B2900B8CEF4 /* RequestFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestFriendViewController.xib; sourceTree = "<group>"; };
 		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,6 +229,7 @@
 		9A3C76D52C730197002E34E6 /* FriendViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9AAC30002C772A5000B8CEF4 /* SubViews */,
 				9A3C76DB2C73021E002E34E6 /* FriendViewController.swift */,
 				9A3C76DC2C73021E002E34E6 /* FriendViewController.xib */,
 			);
@@ -261,6 +278,15 @@
 				9A46C0512C61DD1F00FB78A8 /* ForgotPasswordViewController.xib */,
 			);
 			path = ForgotPasswordViewController;
+			sourceTree = "<group>";
+		};
+		9A4E34842C7DD6AE00C8B485 /* AllFriendCell */ = {
+			isa = PBXGroup;
+			children = (
+				9A4E34852C7DD6C800C8B485 /* AllFriendTableViewCell.swift */,
+				9A4E34862C7DD6C800C8B485 /* AllFriendTableViewCell.xib */,
+			);
+			path = AllFriendCell;
 			sourceTree = "<group>";
 		};
 		9A63B7242C75966300EEA9A5 /* CustomCell */ = {
@@ -322,6 +348,44 @@
 				9A3C76CF2C72FB22002E34E6 /* TabbarViewController.xib */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9AAC30002C772A5000B8CEF4 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC30032C772AA200B8CEF4 /* FriendRequestViewController */,
+				9AAC30022C772A8800B8CEF4 /* AllFriendViewController */,
+				9AAC30012C772A6000B8CEF4 /* ListFriendViewController */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		9AAC30012C772A6000B8CEF4 /* ListFriendViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC30042C772AC300B8CEF4 /* ListFriendViewController.swift */,
+				9AAC30052C772AC300B8CEF4 /* ListFriendViewController.xib */,
+			);
+			path = ListFriendViewController;
+			sourceTree = "<group>";
+		};
+		9AAC30022C772A8800B8CEF4 /* AllFriendViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A4E34842C7DD6AE00C8B485 /* AllFriendCell */,
+				9AAC30082C772ADE00B8CEF4 /* AllFriendViewController.swift */,
+				9AAC30092C772ADE00B8CEF4 /* AllFriendViewController.xib */,
+			);
+			path = AllFriendViewController;
+			sourceTree = "<group>";
+		};
+		9AAC30032C772AA200B8CEF4 /* FriendRequestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AAC300C2C772B2900B8CEF4 /* RequestFriendViewController.swift */,
+				9AAC300D2C772B2900B8CEF4 /* RequestFriendViewController.xib */,
+			);
+			path = FriendRequestViewController;
 			sourceTree = "<group>";
 		};
 		9AD41FC02C5B7F130002EFB6 /* Platform */ = {
@@ -418,10 +482,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAC30062C772AC300B8CEF4 /* ListFriendViewController.xib in Resources */,
 				9A63B7332C75976C00EEA9A5 /* PersonInfoTableViewCell.xib in Resources */,
 				9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */,
 				9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */,
 				9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */,
+				9A4E34872C7DD6C800C8B485 /* AllFriendTableViewCell.xib in Resources */,
+				9AAC300A2C772ADE00B8CEF4 /* AllFriendViewController.xib in Resources */,
 				9A3C76E12C730235002E34E6 /* PersonViewController.xib in Resources */,
 				9A63B72B2C75974600EEA9A5 /* LogoutTableViewCell.xib in Resources */,
 				9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */,
@@ -432,6 +499,7 @@
 				9A3CEA9A2C5C954300D4A376 /* HomeViewController.xib in Resources */,
 				9A3C76DD2C73021E002E34E6 /* FriendViewController.xib in Resources */,
 				9A63B72F2C75975C00EEA9A5 /* SettingTableViewCell.xib in Resources */,
+				9AAC300E2C772B2900B8CEF4 /* RequestFriendViewController.xib in Resources */,
 				9A3CEA8C2C5C93BD00D4A376 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +518,10 @@
 				9A3C76D32C72FC03002E34E6 /* UIViewControllerExtensions.swift in Sources */,
 				9A25F3A42C5A3D88009D9B3D /* ViewController.swift in Sources */,
 				9A3C76DE2C73021E002E34E6 /* FriendViewController.swift in Sources */,
+				9AAC30072C772AC300B8CEF4 /* ListFriendViewController.swift in Sources */,
+				9AAC300B2C772ADE00B8CEF4 /* AllFriendViewController.swift in Sources */,
 				9A25F3BC2C5A4A33009D9B3D /* UITextFieldExtensions.swift in Sources */,
+				9A4E34882C7DD6C800C8B485 /* AllFriendTableViewCell.swift in Sources */,
 				9A25F3A02C5A3D88009D9B3D /* AppDelegate.swift in Sources */,
 				9A3CEAA12C5C9E1D00D4A376 /* UseCaseProvider.swift in Sources */,
 				9A3CEA992C5C954300D4A376 /* HomeViewController.swift in Sources */,
@@ -464,6 +535,7 @@
 				9A63B72A2C75974600EEA9A5 /* LogoutTableViewCell.swift in Sources */,
 				9A63B73A2C75F2AC00EEA9A5 /* UIImageViewExtensions.swift in Sources */,
 				9A3CEA9D2C5C966B00D4A376 /* User.swift in Sources */,
+				9AAC300F2C772B2900B8CEF4 /* RequestFriendViewController.swift in Sources */,
 				9A3C76E22C730235002E34E6 /* PersonViewController.swift in Sources */,
 				9A3CEA9F2C5C9DE800D4A376 /* UserUseCase.swift in Sources */,
 				9A0E3A242C5B442B005BE7FD /* UIButtonExtensions.swift in Sources */,
