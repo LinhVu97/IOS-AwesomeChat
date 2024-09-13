@@ -31,16 +31,16 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small-background" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-kH-wNm">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="255.66666666666666"/>
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="228"/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xD5-bA-AK1">
-                    <rect key="frame" x="0.0" y="225.66666666666666" width="393" height="50.999999999999972"/>
+                    <rect key="frame" x="0.0" y="198" width="393" height="78.666666666666686"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXP-DR-aWY">
-                            <rect key="frame" x="10" y="20" width="373" height="31"/>
+                            <rect key="frame" x="10" y="19.999999999999996" width="373" height="58.666666666666657"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I0-cn-nxZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="31"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="58.666666666666664"/>
                                     <color key="tintColor" name="blueColor"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Friend">
@@ -51,7 +51,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jeu-97-26d">
-                                    <rect key="frame" x="124.33333333333334" y="0.0" width="124.33333333333334" height="31"/>
+                                    <rect key="frame" x="124.33333333333334" y="0.0" width="124.33333333333334" height="58.666666666666664"/>
                                     <color key="tintColor" name="grayColor"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="All">
@@ -62,7 +62,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7X-cd-6Ls">
-                                    <rect key="frame" x="248.66666666666671" y="0.0" width="124.33333333333334" height="31"/>
+                                    <rect key="frame" x="248.66666666666671" y="0.0" width="124.33333333333334" height="58.666666666666664"/>
                                     <color key="tintColor" name="grayColor"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Request">
@@ -148,7 +148,6 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="dXC-TA-fYX" firstAttribute="leading" secondItem="PWb-kH-wNm" secondAttribute="leading" constant="12" id="2VG-Y9-z2k"/>
-                <constraint firstItem="PWb-kH-wNm" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="5Rt-OU-xfX"/>
                 <constraint firstItem="Klw-WI-d1F" firstAttribute="centerY" secondItem="Yp2-Sc-vFO" secondAttribute="centerY" id="7D2-Ka-g15"/>
                 <constraint firstItem="hz6-0N-Aw0" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="COm-Jw-EFF"/>
                 <constraint firstItem="deg-cF-EUl" firstAttribute="leading" secondItem="0I0-cn-nxZ" secondAttribute="leading" id="DAr-51-MCT"/>

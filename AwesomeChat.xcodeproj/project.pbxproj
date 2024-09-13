@@ -18,6 +18,8 @@
 		9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */; };
 		9A25F3B92C5A3F71009D9B3D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */; };
 		9A25F3BC2C5A4A33009D9B3D /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */; };
+		9A36B2622C94309300051A6E /* AllMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A36B2602C94309300051A6E /* AllMessageTableViewCell.swift */; };
+		9A36B2632C94309300051A6E /* AllMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A36B2612C94309300051A6E /* AllMessageTableViewCell.xib */; };
 		9A3C76D02C72FB22002E34E6 /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3C76CF2C72FB22002E34E6 /* TabbarViewController.xib */; };
 		9A3C76D12C72FB22002E34E6 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76CE2C72FB22002E34E6 /* TabbarViewController.swift */; };
 		9A3C76D32C72FC03002E34E6 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C76D22C72FC03002E34E6 /* UIViewControllerExtensions.swift */; };
@@ -77,6 +79,8 @@
 		9A25F3B62C5A3F71009D9B3D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9A25F3B72C5A3F71009D9B3D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		9A25F3BB2C5A4A33009D9B3D /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		9A36B2602C94309300051A6E /* AllMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMessageTableViewCell.swift; sourceTree = "<group>"; };
+		9A36B2612C94309300051A6E /* AllMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllMessageTableViewCell.xib; sourceTree = "<group>"; };
 		9A3C76CE2C72FB22002E34E6 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		9A3C76CF2C72FB22002E34E6 /* TabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
 		9A3C76D22C72FC03002E34E6 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
@@ -217,9 +221,27 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		9A36B25F2C94306D00051A6E /* AllMessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				9A36B2602C94309300051A6E /* AllMessageTableViewCell.swift */,
+				9A36B2612C94309300051A6E /* AllMessageTableViewCell.xib */,
+			);
+			path = AllMessageCell;
+			sourceTree = "<group>";
+		};
+		9A36B2642C9433AA00051A6E /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		9A3C76D42C73018A002E34E6 /* MessageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9A36B2642C9433AA00051A6E /* SubViews */,
+				9A36B25F2C94306D00051A6E /* AllMessageCell */,
 				9A3C76D72C730205002E34E6 /* MessageViewController.swift */,
 				9A3C76D82C730205002E34E6 /* MessageViewController.xib */,
 			);
@@ -487,6 +509,7 @@
 				9A46C0532C61DD1F00FB78A8 /* ForgotPasswordViewController.xib in Resources */,
 				9A0E3A222C5B3AEC005BE7FD /* SignUpViewController.xib in Resources */,
 				9A25F3B82C5A3F71009D9B3D /* SignInViewController.xib in Resources */,
+				9A36B2632C94309300051A6E /* AllMessageTableViewCell.xib in Resources */,
 				9A4E34872C7DD6C800C8B485 /* AllFriendTableViewCell.xib in Resources */,
 				9AAC300A2C772ADE00B8CEF4 /* AllFriendViewController.xib in Resources */,
 				9A3C76E12C730235002E34E6 /* PersonViewController.xib in Resources */,
@@ -530,6 +553,7 @@
 				9A3CEAA42C5CB88000D4A376 /* FirebaseAuthManager.swift in Sources */,
 				9A3C76DA2C730205002E34E6 /* MessageViewController.swift in Sources */,
 				9A46C0522C61DD1F00FB78A8 /* ForgotPasswordViewController.swift in Sources */,
+				9A36B2622C94309300051A6E /* AllMessageTableViewCell.swift in Sources */,
 				9A63B7352C75982F00EEA9A5 /* UITableViewExtensions.swift in Sources */,
 				9AA061102C65FAC600CD78AF /* UIViewExtensions.swift in Sources */,
 				9A63B72A2C75974600EEA9A5 /* LogoutTableViewCell.swift in Sources */,
