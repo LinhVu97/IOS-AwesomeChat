@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddMessageViewController" customModule="AwesomeChat" customModuleProvider="target">
+            <connections>
+                <outlet property="searchFriendTextField" destination="ZOf-GK-LFT" id="BCG-EW-tqq"/>
+                <outlet property="tableView" destination="PRm-60-CA9" id="wIC-bS-FLf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small-background" translatesAutoresizingMaskIntoConstraints="NO" id="jOW-y7-HOx">
+                    <rect key="frame" x="0.0" y="0.0" width="402" height="228"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="PRm-60-CA9">
+                    <rect key="frame" x="0.0" y="198" width="402" height="642"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tm1-vc-KlC">
+                    <rect key="frame" x="7" y="64" width="38" height="38"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="back-button"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="gXf-sC-GLd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wL5-34-DMZ">
+                    <rect key="frame" x="316" y="66" width="74" height="34"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="backViewController:" destination="-1" eventType="touchUpInside" id="cwy-lu-7R1"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwX-TY-UYp">
+                    <rect key="frame" x="134" y="72" width="134" height="22"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZOf-GK-LFT">
+                    <rect key="frame" x="12" y="121" width="378" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="jOW-y7-HOx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8Q3-xg-D0B"/>
+                <constraint firstItem="jOW-y7-HOx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8Zv-Wc-oai"/>
+                <constraint firstItem="wL5-34-DMZ" firstAttribute="centerY" secondItem="uwX-TY-UYp" secondAttribute="centerY" id="9qk-sO-TOU"/>
+                <constraint firstItem="ZOf-GK-LFT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="ETk-ma-Co2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wL5-34-DMZ" secondAttribute="trailing" constant="12" id="IDo-8w-KLy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jOW-y7-HOx" secondAttribute="trailing" id="Jf3-FQ-R3k"/>
+                <constraint firstItem="Tm1-vc-KlC" firstAttribute="leading" secondItem="jOW-y7-HOx" secondAttribute="leading" constant="7" id="MQd-n4-V6K"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZOf-GK-LFT" secondAttribute="trailing" constant="12" id="Pnm-yE-Iqp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PRm-60-CA9" secondAttribute="trailing" id="Te0-8Z-SD7"/>
+                <constraint firstItem="PRm-60-CA9" firstAttribute="top" secondItem="ZOf-GK-LFT" secondAttribute="bottom" constant="37" id="Y0j-6v-DVZ"/>
+                <constraint firstItem="PRm-60-CA9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="e06-YT-zDt"/>
+                <constraint firstItem="PRm-60-CA9" firstAttribute="top" secondItem="jOW-y7-HOx" secondAttribute="bottom" constant="-30" id="gvE-uI-EU6"/>
+                <constraint firstItem="Tm1-vc-KlC" firstAttribute="top" secondItem="jOW-y7-HOx" secondAttribute="top" constant="64" id="lFy-to-gAO"/>
+                <constraint firstItem="uwX-TY-UYp" firstAttribute="centerY" secondItem="Tm1-vc-KlC" secondAttribute="centerY" id="sdt-kP-3ki"/>
+                <constraint firstItem="uwX-TY-UYp" firstAttribute="centerX" secondItem="jOW-y7-HOx" secondAttribute="centerX" id="tcC-6V-Afq"/>
+                <constraint firstItem="ZOf-GK-LFT" firstAttribute="top" secondItem="uwX-TY-UYp" secondAttribute="bottom" constant="27" id="uSy-GB-5uc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="PRm-60-CA9" secondAttribute="bottom" id="ylN-zF-wN9"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-button" width="14" height="24"/>
+        <image name="small-background" width="375" height="228"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

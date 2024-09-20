@@ -24,4 +24,16 @@ class AllMessageTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func bindingData(conversation: Conversation) {
+        lastMessage.text = conversation.lastMessage
+        timeMessage.text = formatDate(date: conversation.timestamp)
+        nameMessage.text = conversation.participantUsername
+    }
+    
+    private func formatDate(date: Date, dateFormat: String = "yyyy-MM-dd") -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = dateFormat
+        return dateFormatter.string(from: date)
+        
+    }
 }
