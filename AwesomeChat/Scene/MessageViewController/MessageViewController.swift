@@ -77,6 +77,7 @@ extension MessageViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let conversation = conversations[indexPath.row]
         let vc = ConversationViewController()
+        vc.conversationData = conversation
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

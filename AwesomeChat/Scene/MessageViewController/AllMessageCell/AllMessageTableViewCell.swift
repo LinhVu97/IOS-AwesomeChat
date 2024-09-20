@@ -16,6 +16,7 @@ class AllMessageTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        setupView()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -24,10 +25,20 @@ class AllMessageTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    private func setupView() {
+        imageMessage.layer.cornerRadius = imageMessage.frame.size.width / 2
+        imageMessage.layer.borderWidth = 3
+        imageMessage.layer.borderColor = UIColor(named: "blueColor")?.cgColor
+    }
+    
     func bindingData(conversation: Conversation) {
         lastMessage.text = conversation.lastMessage
         timeMessage.text = formatDate(date: conversation.timestamp)
         nameMessage.text = conversation.participantUsername
+        
+        if let url = URL(string: conversation.participantImageProfile) {
+            imageMessage.loadImage(url: url)
+        }
     }
     
     private func formatDate(date: Date, dateFormat: String = "yyyy-MM-dd") -> String {
