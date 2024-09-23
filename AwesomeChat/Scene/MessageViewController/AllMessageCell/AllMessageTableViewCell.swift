@@ -41,7 +41,7 @@ class AllMessageTableViewCell: UITableViewCell {
         }
     }
     
-    private func formatDate(date: Date, dateFormat: String = "yyyy-MM-dd") -> String {
+    private func formatDate(date: Date, dateFormat: String = "HH:mm") -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat
         return dateFormatter.string(from: date)

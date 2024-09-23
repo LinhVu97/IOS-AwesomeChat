@@ -70,6 +70,8 @@
 		9AD41FC42C5B90430002EFB6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */; };
 		9ADA0C8B2C996B5300C31034 /* AddMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA0C892C996B5300C31034 /* AddMessageTableViewCell.swift */; };
 		9ADA0C8C2C996B5300C31034 /* AddMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADA0C8A2C996B5300C31034 /* AddMessageTableViewCell.xib */; };
+		9AEC8F2E2CA155570034AA57 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC8F2C2CA155570034AA57 /* ConversationTableViewCell.swift */; };
+		9AEC8F2F2CA155570034AA57 /* ConversationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AEC8F2D2CA155570034AA57 /* ConversationTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +135,8 @@
 		9AD41FC32C5B90430002EFB6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		9ADA0C892C996B5300C31034 /* AddMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMessageTableViewCell.swift; sourceTree = "<group>"; };
 		9ADA0C8A2C996B5300C31034 /* AddMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMessageTableViewCell.xib; sourceTree = "<group>"; };
+		9AEC8F2C2CA155570034AA57 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		9AEC8F2D2CA155570034AA57 /* ConversationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,6 +389,7 @@
 		9A7028F02C997B0E003A95D2 /* ConversationViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9AEC8F2B2CA155360034AA57 /* ConversationTableViewCell */,
 				9A7028F62C997B9B003A95D2 /* ConversationViewController.swift */,
 				9A7028F72C997B9B003A95D2 /* ConversationViewController.xib */,
 			);
@@ -481,6 +486,15 @@
 			path = AddMessageCell;
 			sourceTree = "<group>";
 		};
+		9AEC8F2B2CA155360034AA57 /* ConversationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC8F2C2CA155570034AA57 /* ConversationTableViewCell.swift */,
+				9AEC8F2D2CA155570034AA57 /* ConversationTableViewCell.xib */,
+			);
+			path = ConversationTableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -561,6 +575,7 @@
 				9AAC300A2C772ADE00B8CEF4 /* AllFriendViewController.xib in Resources */,
 				9ADA0C8C2C996B5300C31034 /* AddMessageTableViewCell.xib in Resources */,
 				9A3C76E12C730235002E34E6 /* PersonViewController.xib in Resources */,
+				9AEC8F2F2CA155570034AA57 /* ConversationTableViewCell.xib in Resources */,
 				9A63B72B2C75974600EEA9A5 /* LogoutTableViewCell.xib in Resources */,
 				9A25F3A92C5A3D8A009D9B3D /* Assets.xcassets in Resources */,
 				9A3C76D02C72FB22002E34E6 /* TabbarViewController.xib in Resources */,
@@ -590,6 +605,7 @@
 				9A25F3A42C5A3D88009D9B3D /* ViewController.swift in Sources */,
 				9A36B26A2C943B9000051A6E /* AddMessageViewController.swift in Sources */,
 				9A7028F82C997B9B003A95D2 /* ConversationViewController.swift in Sources */,
+				9AEC8F2E2CA155570034AA57 /* ConversationTableViewCell.swift in Sources */,
 				9A3C76DE2C73021E002E34E6 /* FriendViewController.swift in Sources */,
 				9AAC30072C772AC300B8CEF4 /* ListFriendViewController.swift in Sources */,
 				9AAC300B2C772ADE00B8CEF4 /* AllFriendViewController.swift in Sources */,
