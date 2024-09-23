@@ -16,3 +16,18 @@ struct Conversation {
     var participantUsername: String
     var participantImageProfile: String
 }
+
+struct Message {
+    var messageId: String
+    var senderId: String
+    var recipientId: String
+    var content: String
+    var timestamp: Date
+    var messageType: MessageType
+}
+
+enum MessageType: String {
+    case text
+    case video
+    case image
+}

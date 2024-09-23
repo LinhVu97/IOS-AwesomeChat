@@ -11,6 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConversationViewController" customModule="AwesomeChat" customModuleProvider="target">
             <connections>
+                <outlet property="chooseImageView" destination="DlA-8y-8OQ" id="ieV-Xs-8Ya"/>
+                <outlet property="conversationTableView" destination="TqN-DZ-DK9" id="oPo-YS-5PV"/>
+                <outlet property="messageTextField" destination="0KI-Ml-R3O" id="qv5-ow-zqu"/>
                 <outlet property="profileImage" destination="Zc4-EX-tU5" id="liy-sV-Xkr"/>
                 <outlet property="username" destination="Vwe-Ao-mHG" id="6p2-uA-Seb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -37,19 +40,64 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-Ao-mHG">
-                    <rect key="frame" x="109" y="72.666666666666671" width="45" height="21"/>
+                    <rect key="frame" x="109" y="72.333333333333329" width="45" height="21.666666666666671"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="TqN-DZ-DK9">
+                    <rect key="frame" x="0.0" y="130.66666666666669" width="393" height="627.66666666666652"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5xt-rD-FcV">
+                    <rect key="frame" x="0.0" y="758.33333333333337" width="393" height="59.666666666666629"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OuI-yP-Sjo">
+                            <rect key="frame" x="12" y="12" width="369" height="35.666666666666664"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-photo" translatesAutoresizingMaskIntoConstraints="NO" id="DlA-8y-8OQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="52" height="35.666666666666664"/>
+                                </imageView>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter message ..." textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0KI-Ml-R3O">
+                                    <rect key="frame" x="62" y="0.0" width="249" height="35.666666666666664"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgD-la-fHB">
+                                    <rect key="frame" x="321" y="0.0" width="48" height="35.666666666666664"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="send-message"/>
+                                    <connections>
+                                        <action selector="sendMessage:" destination="-1" eventType="touchUpInside" id="UXn-oy-glk"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="OuI-yP-Sjo" firstAttribute="top" secondItem="5xt-rD-FcV" secondAttribute="top" constant="12" id="6xU-nW-M43"/>
+                        <constraint firstAttribute="bottom" secondItem="OuI-yP-Sjo" secondAttribute="bottom" constant="12" id="9BG-rL-r7V"/>
+                        <constraint firstAttribute="trailing" secondItem="OuI-yP-Sjo" secondAttribute="trailing" constant="12" id="KiK-jl-bTQ"/>
+                        <constraint firstItem="OuI-yP-Sjo" firstAttribute="leading" secondItem="5xt-rD-FcV" secondAttribute="leading" constant="12" id="bCm-dc-KZB"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="Vwe-Ao-mHG" firstAttribute="centerY" secondItem="Zc4-EX-tU5" secondAttribute="centerY" id="6T2-nb-Ay2"/>
                 <constraint firstItem="Vwe-Ao-mHG" firstAttribute="leading" secondItem="Zc4-EX-tU5" secondAttribute="trailing" constant="10" id="ARK-H9-1kl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TqN-DZ-DK9" secondAttribute="trailing" id="LOf-hB-fsU"/>
+                <constraint firstItem="TqN-DZ-DK9" firstAttribute="top" secondItem="Zc4-EX-tU5" secondAttribute="bottom" constant="30" id="bXo-S2-Td5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5xt-rD-FcV" secondAttribute="bottom" id="d4j-cV-M3o"/>
+                <constraint firstItem="5xt-rD-FcV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fOL-LM-nP4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5xt-rD-FcV" secondAttribute="trailing" id="fgw-th-9Aw"/>
+                <constraint firstItem="5xt-rD-FcV" firstAttribute="top" secondItem="TqN-DZ-DK9" secondAttribute="bottom" id="hww-TY-Of0"/>
+                <constraint firstItem="TqN-DZ-DK9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ivW-Dc-Uhl"/>
                 <constraint firstItem="Zc4-EX-tU5" firstAttribute="leading" secondItem="Mx7-Vx-a6C" secondAttribute="trailing" constant="9" id="n2g-6J-gzI"/>
                 <constraint firstItem="Mx7-Vx-a6C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="7" id="wZS-3g-307"/>
+                <constraint firstItem="5xt-rD-FcV" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.07" id="wdN-xW-doJ"/>
                 <constraint firstItem="Zc4-EX-tU5" firstAttribute="centerY" secondItem="Mx7-Vx-a6C" secondAttribute="centerY" id="xKc-bS-KQl"/>
                 <constraint firstItem="Mx7-Vx-a6C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="yqG-Pg-R0d"/>
             </constraints>
@@ -57,8 +105,10 @@
         </view>
     </objects>
     <resources>
+        <image name="add-photo" width="52" height="52"/>
         <image name="backward" width="24" height="24"/>
         <image name="no-avatar" width="35" height="35"/>
+        <image name="send-message" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
